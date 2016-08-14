@@ -4,16 +4,11 @@ using namespace std;
 
 int main()
 {
-  // declaring variables;
-  int a, b;
+  int a = 5;
+  int b(2);
   int result;
-
-  // process;
-  a = 5;
-  b = 2;
-  a = a + 1;
+  a = a + 3;
   result = a - b;
-
   // print out the result;
   cout << result;
 
